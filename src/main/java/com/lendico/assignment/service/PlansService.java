@@ -6,7 +6,7 @@ import com.lendico.assignment.model.Installment;
 import com.lendico.assignment.model.Loan;
 
 /**
- * @author Ahmad Naser - ahmad.naser@erabia.com
+ * @author Ahmad Naser - ahmad.aborob94@gmail.com
  *
  *         Feb 16, 2018
  */

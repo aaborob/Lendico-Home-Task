@@ -42,6 +42,7 @@ public class BorrowerPlanController {
 	@RequestMapping(value = "/generate-plan", method = RequestMethod.POST, produces = "application/json")
 	public ResponseEntity<List<Installment>> generateBorrowerPlan(@RequestBody(required = true) Loan loan,
 			HttpServletRequest request, HttpServletResponse response) {
+		// Validation to make sure needed inputs are not null 
 		if (loan == null || loan.getLoanAmount() == null || loan.getStartDate() == null
 				|| loan.getNominalRate() == null) {
 			return new ResponseEntity<List<Installment>>(HttpStatus.BAD_REQUEST);

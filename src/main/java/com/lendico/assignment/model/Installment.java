@@ -1,7 +1,7 @@
 package com.lendico.assignment.model;
 
 /**
- * @author Ahmad Naser - ahmad.naser@erabia.com
+ * @author Ahmad Naser - ahmad.aborob94@gmail.com
  *
  *         Feb 16, 2018
  */
